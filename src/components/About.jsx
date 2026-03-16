@@ -2,7 +2,7 @@ import useReveal from '../hooks/useReveal'
 
 const CARDS=[
   {i:'🎓',t:'BSc Computer Science',s:'PDEU · 2021–2024 · CPI 8.94'},
-  {i:'📜',t:'Diploma Engineering',s:'VPMPP · 2018–2021 · CPI 9.96'},
+  {i:'📜',t:'Diploma Engineering',s:'VPMP · 2018–2021 · CPI 9.96'},
   {i:'📍',t:'Ahmedabad, India',s:'Open to remote & on-site'},
   {i:'🚀',t:'Namaste React + Node',s:'In-depth MERN specialization'},
 ]

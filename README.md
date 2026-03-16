@@ -1,9 +1,5 @@
 # Vaibhavi Mistri — Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-6366f1?style=for-the-badge&logo=vercel)](https://vaibhavi-portfolio.vercel.app)
-[![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-5-646cff?style=for-the-badge&logo=vite)](https://vitejs.dev)
-
 > Personal portfolio website built with React + Vite. Showcasing my projects, skills, and experience as a Full-Stack MERN Developer.
 
 ---
