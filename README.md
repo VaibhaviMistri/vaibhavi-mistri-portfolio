@@ -10,7 +10,7 @@
 
 ## 🌐 Live
 
-**[vaibhavi-portfolio.vercel.app](https://vaibhavi-portfolio.vercel.app)**
+**[vaibhavi-mistri-portfolio.vercel.app](https://vaibhavi-mistri-portfolio.vercel.app/)**
 
 ---
 
