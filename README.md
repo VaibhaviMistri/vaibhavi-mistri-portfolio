@@ -1,66 +1,112 @@
-# Vaibhavi Mistri — React Portfolio
+# Vaibhavi Mistri — Portfolio
 
-Built with **React + Vite**. Works on Windows, Mac, Linux.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-6366f1?style=for-the-badge&logo=vercel)](https://vaibhavi-portfolio.vercel.app)
+[![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-5-646cff?style=for-the-badge&logo=vite)](https://vitejs.dev)
+
+> Personal portfolio website built with React + Vite. Showcasing my projects, skills, and experience as a Full-Stack MERN Developer.
 
 ---
 
-## ⚡ Start in 3 commands
+## 🌐 Live
+
+**[vaibhavi-portfolio.vercel.app](https://vaibhavi-portfolio.vercel.app)**
+
+---
+
+## ✨ Features
+
+- **Dark / Light mode** — toggle with preference saved to localStorage
+- **Typed hero effect** — animated text cycling through roles
+- **Scroll reveal animations** — elements animate in as you scroll
+- **Project filter** — filter by Full Stack / React / Node.js / Freelance
+- **Resume download** — one-click PDF download
+- **Contact form** — opens email client with pre-filled message
+- **Fully responsive** — mobile, tablet, and desktop
+- **Fast** — built with Vite, no unnecessary dependencies
+
+---
+
+## 🛠️ Built With
+
+| Technology | Purpose |
+|---|---|
+| React 18 | UI components |
+| Vite 5 | Build tool & dev server |
+| CSS Variables | Theming (dark/light) |
+| IntersectionObserver API | Scroll reveal animations |
+| Plus Jakarta Sans | Display font |
+| Fira Code | Monospace font |
+
+---
+
+## 📁 Project Structure
+
+```
+vaibhavi-portfolio/
+├── public/
+│   └── Vaibhavi_Mistri_Resume.pdf
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx       # Fixed nav with mobile drawer
+│   │   ├── Hero.jsx         # Typed effect + resume download
+│   │   ├── About.jsx        # Bio + education cards
+│   │   ├── Skills.jsx       # Tech stack with colored badges
+│   │   ├── Projects.jsx     # Project grid with filter tabs
+│   │   ├── Experience.jsx   # Responsive timeline
+│   │   ├── Contact.jsx      # Form + social links
+│   │   └── Footer.jsx
+│   ├── hooks/
+│   │   └── useReveal.js     # Scroll reveal hook
+│   ├── App.jsx              # Theme context + layout
+│   ├── main.jsx
+│   └── index.css            # CSS variables, tokens, base styles
+├── index.html
+├── vite.config.js
+└── package.json
+```
+
+---
+
+## 🚀 Run Locally
 
 ```bash
+# Clone the repo
+git clone https://github.com/VaibhaviMistri/vaibhavi-mistri-portfolio
+cd vaibhavi-portfolio
+
+# Install dependencies
 npm install
+
+# Start dev server
 npm run dev
-# Open http://localhost:5173
+# → http://localhost:5173
 ```
 
 ---
 
-## 📄 Add Your Resume
+## 📦 Build & Deploy
 
-Place your PDF here (exact name matters):
-```
-public/Vaibhavi_Mistri_Resume.pdf
-```
-The **"Download Resume"** button will serve it automatically.
-
----
-
-## 🌐 Deploy Free
-
-### Vercel
 ```bash
+# Build for production
 npm run build
-# Push to GitHub → import on vercel.com → Deploy
+
+# Preview production build locally
+npm run preview
 ```
 
-### Netlify
-```bash
-npm run build
-# Drag the dist/ folder to netlify.com/drop
-```
+Deployed on **Vercel** — auto-deploys on every push to `main`.
 
 ---
 
-## 🎨 Customize
+## 📬 Contact
 
-**Accent color** — edit `src/index.css`:
-```css
---accent: #6366f1;   /* change to any color */
---accent2: #f97316;
-```
-
-**Add a project** — edit the `PROJECTS` array in `src/components/Projects.jsx`
-
-**Update links** — search for `vaibhavimistri` in all files and replace with your real URLs
+- **Email** — vaibhavimistri11@gmail.com
+- **LinkedIn** — [linkedin.com/in/vaibhavimistri](https://linkedin.com/in/vaibhavimistri)
+- **GitHub** — [github.com/vaibhavimistri](https://github.com/vaibhavimistri)
 
 ---
 
-## ✅ Pre-launch checklist
+## 📄 License
 
-- [ ] Add `public/Vaibhavi_Mistri_Resume.pdf`
-- [ ] Replace `#` live demo links with real Vercel URLs
-- [ ] Replace GitHub URLs with real repo links
-- [ ] Update LinkedIn URL
-- [ ] Test dark + light mode toggle
-- [ ] Test mobile on Chrome DevTools
-- [ ] Test project filter tabs
-- [ ] Test resume download button
+This project is open source. Feel free to use it as inspiration for your own portfolio — just don't copy it as-is. Give it your own personality. 🙂
