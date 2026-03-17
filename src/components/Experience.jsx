@@ -4,8 +4,8 @@ const EXP = [
   {
     date: '2026', badge: 'Freelance 🇨🇦', bc: '#4ade80',
     role: 'Freelance Web Developer',
-    company: 'Remote · Ottawa, Canada',
-    desc: 'Delivered stretchandsmile.ca — a production website for an in-home physiotherapy clinic. Responsive, fast, and serving real clients. Private codebase.',
+    company: 'Remote',
+    desc: 'Delivered stretchandsmile.ca.  A production website for an in-home physiotherapy clinic. Responsive, fast, and serving real clients. Private codebase.',
     link: 'https://stretchandsmile.ca',
     linkLabel: '↗ stretchandsmile.ca',
   },

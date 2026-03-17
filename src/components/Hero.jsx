@@ -110,7 +110,7 @@ export default function Hero() {
           <strong style={{ color: 'var(--text)', fontWeight: 600 }}>React</strong>,{' '}
           <strong style={{ color: 'var(--text)', fontWeight: 600 }}>Node.js</strong> &amp;{' '}
           <strong style={{ color: 'var(--text)', fontWeight: 600 }}>MongoDB</strong>.
-          From developer networking platforms to AI-powered streaming apps — I ship things that work.
+          From developer networking platforms to AI-powered streaming apps. I ship things that work.
         </p>
 
         {/* CTAs */}

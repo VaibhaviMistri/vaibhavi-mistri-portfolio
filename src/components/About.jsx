@@ -48,7 +48,7 @@ export default function About() {
             <p style={{color:'var(--text2)',lineHeight:1.85,marginBottom:'1.2rem',fontWeight:300,fontSize:'1rem'}}>
               I'm a Full-Stack Developer from Ahmedabad with a Bachelor's in Computer Science from{' '}
               <strong style={{color:'var(--text)',fontWeight:600}}>Pandit Deendayal Energy University</strong>.
-              I build end-to-end web apps — real-time platforms, AI-powered apps, and client websites delivered to production.
+              I build end-to-end web apps, real-time platforms, AI-powered apps, and client websites delivered to production.
             </p>
             <p style={{color:'var(--text2)',lineHeight:1.85,marginBottom:'2rem',fontWeight:300,fontSize:'1rem'}}>
               I've completed deep-dive specializations in <strong style={{color:'var(--text)',fontWeight:600}}>Namaste React</strong> and{' '}
