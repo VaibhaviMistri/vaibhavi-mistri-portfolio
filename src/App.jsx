@@ -7,6 +7,7 @@ import Projects   from './components/Projects'
 import Experience from './components/Experience'
 import Contact    from './components/Contact'
 import Footer     from './components/Footer'
+import Education from './components/Education'
 
 export const ThemeCtx = createContext()
 export const useTheme = () => useContext(ThemeCtx)
@@ -28,6 +29,7 @@ export default function App() {
         <Skills />
         <Projects />
         <Experience />
+        <Education />
         <Contact />
         <Footer />
       </div>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useTheme } from '../App'
 
-const LINKS = ['About','Skills','Projects','Experience','Contact']
+const LINKS = ['About','Skills','Projects','Experience','Education','Contact']
 
 export default function Navbar() {
   const { theme, toggle } = useTheme()

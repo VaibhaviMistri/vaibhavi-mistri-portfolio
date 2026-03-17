@@ -51,8 +51,8 @@ export default function About() {
               I build end-to-end web apps, real-time platforms, AI-powered apps, and client websites delivered to production.
             </p>
             <p style={{color:'var(--text2)',lineHeight:1.85,marginBottom:'2rem',fontWeight:300,fontSize:'1rem'}}>
-              I've completed deep-dive specializations in <strong style={{color:'var(--text)',fontWeight:600}}>Namaste React</strong> and{' '}
-              <strong style={{color:'var(--text)',fontWeight:600}}>Namaste Node</strong>,
+              I've completed deep-dive specializations in <strong style={{color:'var(--text)',fontWeight:600}}>React js</strong> and{' '}
+              <strong style={{color:'var(--text)',fontWeight:600}}>Node.js</strong>,
               and have shipped a live freelance project for a Canadian client. I care about clean code, thoughtful UX, and actually shipping.
             </p>
             <div style={{
